@@ -1,0 +1,37 @@
+{
+  "required_api_version": "2",
+  "name": "Custom searx extension",
+  "description": "To use custom/privet searx engine",
+  "developer_name": "beobcode",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Searx",
+      "description": "Custom Searx extension",
+      "default_value": "srx"
+    },
+    {
+      "id": "searx_search_language",
+      "type": "input",
+      "name": "Search Language",
+      "description": "Input your desired ISO language code",
+      "default_value": "en-US"
+    },
+    {
+      "id": "instant_answer",
+      "type": "select",
+      "name": "Include Instant Answer",
+      "description": "Choose whether to include instant answer before search suggestions",
+      "default_value": false,
+      "options": [
+        {"value": true, "text": "yes"},
+        {"value": false, "text": "no"}
+      ]
+    }
+  ]
+}
