@@ -6,6 +6,7 @@ This extension allows you to search the web using the Searx metasearch engine di
 
 - **Custom Searx URL**: Set your preferred Searx instance URL.
 - **Flexible Tab Management**: Choose whether to open search results in a new window or in a new tab in the current window.
+- **Improved Privacy**: Search queries will use POST rather than GET
 
 ## Getting Started
 
