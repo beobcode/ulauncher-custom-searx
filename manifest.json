@@ -3,7 +3,7 @@
   "name": "Custom searx extension",
   "description": "To use custom/privet searx engine",
   "developer_name": "beobcode",
-  "icon": "images/icon.png",
+  "icon": "images/searxng-wordmark.png",
   "options": {
     "query_debounce": 0.1
   },
